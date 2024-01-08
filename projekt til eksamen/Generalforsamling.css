@@ -1,0 +1,139 @@
+@media screen and (min-width: 430px) and (max-width: 930px) {
+body {
+background-color: #2d2828;
+overflow-x: hidden; } 
+
+.navbar {display: none;}
+    
+.Generalforsamling{
+position: relative;
+color: white;
+font-size: 40px;
+left: 80px;
+top: 60px; 
+font-family: inter, sans-serif; }
+
+.Generalforsamlingtekst {
+position: relative;
+top: 60px;
+color: white; }
+
+.Header {
+position: relative;
+background-color: #222020;
+padding: 5px;
+bottom: 10px;
+width: 1000px;
+right: 30px;}
+
+.footer {
+position: relative;
+background-color: #222020;
+padding: 5px;
+top: 100px;
+width: 1000px;
+right: 30px;}
+     
+.Burgermenu {
+position: relative;
+bottom: 70px;
+left: 420px; }
+
+.Logo {
+position: relative;
+top: 40px;
+left: 30px;}
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 20px;
+top: 10px;}
+
+.PDF {
+position: relative;
+color: white;
+text-decoration: none;
+font-size: 20px;    
+top: 30px; }
+
+.overskrift {
+position: relative;
+color: white;
+font-size: 30px;
+top: 70px;}
+
+}
+
+
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; }
+
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+    
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 80px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                      
+.navbar a:hover {color: #556E53;}
+
+.Generalforsamling {
+position: relative;
+color: white;
+font-size: 70px;
+left: 800px;}
+
+.Generalforsamlingtekst {
+position: relative;
+color: white;
+font-size: 30px;
+left: 40px; }
+
+.overskrift {
+position: relative;
+color: white;
+left: 40px;
+font-size: 30px;
+top: 20px;}
+
+.PDF {
+position: relative;
+color: white;
+text-decoration: none;
+font-size: 30px;    
+top: 5px;
+left: 20px;}
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 20px;
+top: 20px;}
+
+.footer {
+position: relative;
+top: 130px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 10px; }
+
+}

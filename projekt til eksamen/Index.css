@@ -1,0 +1,434 @@
+@media screen and (min-width: 430px) and (max-width: 930px) {
+body {
+background-color: #2d2828;
+overflow-x: hidden; } 
+
+.Baggrundsbilledetilcomputer {display: none; } 
+
+.mobilbaggrundsbillede {
+position: relative;
+bottom: 10px;
+right: 20px;
+opacity: 0.5; }  
+
+.Burgermenu {
+position: relative;
+bottom: 700px;
+left: 430px; }
+    
+.navbar {display: none;}
+.btn1 {display: none;}
+.btn2 {display: none;}
+
+.buttonone {
+position: relative;
+background-color: black;
+padding: 14px;
+padding-left: 60px;
+padding-right: 60px;
+border-radius: 15px;
+left: 144px;
+bottom: 480px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out; }
+  
+.buttonone:hover {background-color: white; }
+  
+.buttontwo {
+position: relative;
+background-color: black;
+padding: 14px;
+padding-left: 70px;
+padding-right: 70px;
+border-radius: 15px;
+right:54px;
+bottom: 340px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out; }
+      
+.buttontwo:hover {background-color: white; }
+
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+margin: 0px; /*fjerner afstand*/ 
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+}
+
+/*Forside*/
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+            
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 80px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                          
+.navbar a:hover {color: #556E53;}
+    
+.Baggrundsbilledetilcomputer {
+position: relative;
+bottom: 20px;
+opacity: 0.5; }  
+
+.btn1 {
+position: relative;
+left: 440px;
+bottom: 1000px;
+background-color: black;
+padding: 10px;
+border-radius: 18px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 20px;
+padding-left: 80px;
+padding-right: 80px; }
+      
+.btn1:hover {
+color: #222;
+background-color: white;}
+     
+.btn2 {
+position: relative;
+left: 840px;
+bottom: 1000px;
+background-color: black;
+padding: 10px;
+border-radius: 18px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 20px;
+padding-left: 80px;
+padding-right: 80px; }
+          
+.btn2:hover {
+color: #222;
+background-color: white;}
+         
+.Teksttilforside {
+position: relative;
+color: white;
+font-size: 30px;
+bottom: 900px;
+left: 640px;} 
+
+/*Lobby*/
+.Lobbyen {
+position: relative;
+color: white;
+font-size: 80px;
+bottom: 60px;
+left: 1170px;}
+    
+.Lobbyteksttilpc {
+position: relative;
+color: white;
+font-size: 50px;
+width: 1300px; 
+bottom: 100px; }
+    
+.bordfodbold {
+position: relative;
+left: 1800px; 
+bottom: 1020px; }
+                
+.Pool {
+position: relative;
+left:  1390px;
+bottom: 1240px;}
+                
+.bar {
+position: relative;
+bottom: 1125px;
+left: 1390px;}
+                
+.fælles {
+position: relative;
+left: 1810px; 
+bottom: 1358px;}
+
+/*Arrangementer*/
+.Arrangamenter {
+position: relative;
+color: white;
+font-size: 50px;
+font-family: inter, sans-serif;
+top: 200px;
+left: 890px; }
+            
+.Forårsfest { 
+position: relative;
+top: 300px;
+left: 200px;}  
+        
+.Grillarrangament {
+position: relative;
+top: 20px;
+left: 670px;}
+        
+.Bowling {
+position: relative;
+bottom: 240px;
+left: 1100px;}
+        
+.Generalforsamling {
+position: relative;
+bottom: 500px;
+left: 1500px; }
+        
+.knapnummeret {
+position: relative;
+left: 260px;
+bottom: 470px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+          
+.knapnummeret:hover {
+color: #222;
+background-color: white;}
+        
+.knapnummerto {
+position: relative;
+left: 530px;
+bottom: 495px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+              
+.knapnummerto:hover {
+color: #222;
+background-color: white;}
+          
+.btn3 {
+position: relative;
+left: 730px;
+bottom: 495px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+                  
+.btn3:hover {
+color: #222;
+background-color: white;}
+        
+.btn4 {
+position: relative;
+left: 930px;
+bottom: 488px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+                      
+.btn4:hover {
+color: #222;
+background-color: white;}
+
+/*Generalforsamling*/
+.OverskrifttilpcGeneralforsmaling {
+position: relative;
+font-size: 100px;
+bottom: 80px;
+color: white;
+font-size: 70px;
+left: 800px;}
+    
+.Generalforsamlingtekst {
+position: relative;
+bottom: 100px;
+color: white;
+font-size: 30px;
+left: 40px; }
+
+/*Info*/
+.Info { 
+position: relative;
+top: 200px;
+left: 1000px;
+color: white;
+font-size: 80px;
+font-family: inter, sans-serif; }
+    
+.Vedtægter {
+position: relative;
+color: white;
+font-size: 40px;
+top: 130px;
+left: 20px; }
+    
+.Infotekst {
+position: relative;
+color: white;
+left: 20px;
+font-size: 20px;
+top: 120px;
+font-family: inter, sans-serif; }
+
+/*Privatpolitik*/
+.Privatpolitikoverskrift {
+position: relative;
+font-size: 80px;
+color: white;
+left: 900px;
+top: 750px; }
+
+.Privatlivspolitik {
+position: relative;
+color:white;
+left: 20px;
+top: 800px;
+font-size: 25px;
+font-family: inter, sans-serif; }
+
+.footer {
+position: relative;
+top: 80px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 30px;}
+
+.Privatlivspolitikfooter {
+position: relative;
+text-decoration: none;
+color: white;
+left: 20px;
+bottom: 200px;}
+
+main#carousel {
+position: relative;
+bottom: 7500px;
+right: 190px;
+grid-row: 1 / 2;
+grid-column: 1 / 8;
+width: 100vw;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+transform-style: preserve-3d;
+perspective: 600px;
+--items: 5;
+--middle: 3;
+--position: 1;
+pointer-events: none; }
+  
+div.item {
+position: absolute;
+width: 300px;
+height: 400px;
+background-color: coral;
+--r: calc(var(--position) - var(--offset));
+--abs: max(calc(var(--r) * -1), var(--r));
+transition: all 0.25s linear;
+transform: rotateY(calc(-10deg * var(--r)))
+translateX(calc(-300px * var(--r)));
+z-index: calc((var(--position) - var(--abs)));}
+  
+div.item:nth-of-type(1) {--offset: 1;}
+
+div.item:nth-of-type(2) {--offset: 2; }
+  
+div.item:nth-of-type(3) {--offset: 3; }
+
+div.item:nth-of-type(4) {--offset: 4; }
+
+div.item:nth-of-type(5) {--offset: 5; }
+  
+input:nth-of-type(1) {
+position: relative;
+bottom: 6990px;
+left: 900px;
+grid-column: 2 / 3;
+grid-row: 2 / 3;}
+ 
+input:nth-of-type(1):checked ~ main#carousel {--position: 1; }
+  
+input:nth-of-type(2) {
+position: relative;
+bottom: 6990px;
+left: 945px;
+grid-column: 3 / 4;
+grid-row: 2 / 3; }
+
+input:nth-of-type(2):checked ~ main#carousel {--position: 2; }
+  
+input:nth-of-type(3) {
+position: relative;
+bottom: 6990px;
+left: 980px;
+grid-column: 4 /5;
+grid-row: 2 / 3; }
+
+input:nth-of-type(3):checked ~ main#carousel {--position: 3; }
+  
+input:nth-of-type(4) {
+position: relative;
+bottom: 6990px;
+left: 1020px;
+grid-column: 5 / 6;
+grid-row: 2 / 3; }
+
+input:nth-of-type(4):checked ~ main#carousel {--position: 4;}
+
+.Sport {
+position: relative;
+color: white;
+bottom: 7390px;
+font-size: 90px;
+left: 990px; }    
+
+.Burgermenu {display: none;}
+
+} /*End tag media query til computer*/

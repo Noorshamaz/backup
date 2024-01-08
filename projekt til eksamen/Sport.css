@@ -1,0 +1,270 @@
+@media screen and (min-width: 430px) and (max-width: 930px) {
+body {
+background-color: #2d2828;
+overflow-x: hidden; } 
+
+.Header {
+position: relative;
+background-color: #222020;
+height: 150px;    
+bottom: 70px;
+width: 1000px;
+right: 30px;}
+
+.footer {
+position: relative;
+background-color: #222020;
+height: 150px;    
+top: 800px;
+width: 1000px;
+right: 30px;}
+    
+.Sport {
+position: relative;
+top: 250px;
+left: 190px;
+color: white;
+font-size: 70px; }
+
+.navbar {display: none;}
+
+ /* Styling for the main carousel container */
+ main#carousel {
+position: relative;
+left: 80px;
+top: 200px;    
+grid-row: 1 / 2; /* Rækkeafstand fra grid */
+grid-column: 1 / 8; /* Kolonneafstand fra grid */
+width: 100vw; /* Fuldt viewport bredde */
+ height: 500px; /* Fastsat højde */
+transform-style: preserve-3d; /* Bevar 3D transformation */
+perspective: 600px; /* Perspektiv af 3D transformation */
+--items: 5; /* Antal elementer i carousel */
+--middle: 3; /* Midterste element */
+pointer-events: none; /* Ignorer klik på dette element */ }
+    
+div.item {
+position: absolute; /* Absolut positionering i forhold til den nærmeste positionerede forfader */
+width: 300px; /* Fastsat bredde */
+height: 400px; /* Fastsat højde */
+--r: calc(var(--position) - var(--offset)); /* Beregning af rotation baseret på position og offset */
+--abs: max(calc(var(--r) * -1), var(--r)); /* Beregning af absolutværdi af rotation */
+transition: all 0.25s linear; /* Overgangseffekt for alle egenskaber */
+transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r))); /* 3D rotation og translation */
+z-index: calc((var(--position) - var(--abs))); /* Z-index baseret på position og absolutværdi */ }
+    
+/* Styling for each individual carousel item based on its order */
+div.item:nth-of-type(1) { --offset: 1; }
+div.item:nth-of-type(2) { --offset: 2; }
+div.item:nth-of-type(3) { --offset: 3; }
+div.item:nth-of-type(4) { --offset: 4; }
+div.item:nth-of-type(5) { --offset: 5; }
+    
+/* Styling for radio input buttons and their checked states */
+input:nth-of-type(1) {
+position: relative; /* Relativ positionering i forhold til standardposition */
+grid-column: 2 / 3; /* Kolonnespænding i grid */
+grid-row: 2 / 3; /* Rækkespænding i grid */
+left: 80px; /* Afstand fra venstre side */
+top: 690px; /* Afstand fra bunden */ }
+    
+input:nth-of-type(1):checked ~ main#carousel { --position: 1; } /* Opdater carousel position ved checked tilstand */
+    
+input:nth-of-type(2) {
+position: relative;
+grid-column: 3 / 4;
+grid-row: 2 / 3;
+left: 110px;
+top: 690px; }
+    
+input:nth-of-type(2):checked ~ main#carousel { --position: 2; }
+    
+input:nth-of-type(3) {
+position: relative;
+grid-column: 4 / 5;
+grid-row: 2 / 3;
+left: 155px;
+top: 690px; }
+    
+input:nth-of-type(3):checked ~ main#carousel { --position: 3; }
+    
+input:nth-of-type(4) {
+position: relative;
+grid-column: 5 / 6;
+grid-row: 2 / 3;
+left: 200px;
+top: 690px; }
+    
+input:nth-of-type(4):checked ~ main#carousel { --position: 4; }
+    
+input:nth-of-type(5) {
+grid-column: 6 / 7;
+grid-row: 2 / 3; }
+    
+input:nth-of-type(5):checked ~ main#carousel { --position: 5; }
+
+.Logo {
+position: relative;
+bottom: 140px; 
+left: 30px;}
+
+.burgermenu {
+position: relative;
+left: 420px;
+bottom: 70px; }
+
+ 
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+top: 650px;
+left: 20px; }
+
+}
+
+
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; 
+display: grid;
+grid-template-rows: 500px 100px;
+grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+align-items: center;
+justify-items: center; }
+
+
+.burgermenu {display: none;}
+      
+    
+.Header {
+position: relative;
+bottom: 500px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 10px;}
+    
+.Sport {
+position: relative;
+top: 230px;
+left: 930px;
+color: white;
+font-size: 100px; }
+    
+.Logo {
+position: relative;
+bottom: 140px; 
+left: 20px;}
+    
+.navbar a {
+position: relative;
+bottom: 80px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+right: 130px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                  
+.navbar a:hover {color: #556E53;}
+    
+main#carousel {
+position: relative;
+top: 390px;
+right: 790px;
+grid-row: 1 / 2;
+grid-column: 1 / 8;
+width: 100vw;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+transform-style: preserve-3d;
+perspective: 600px;
+ --items: 5;
+--middle: 3;
+--position: 1;
+pointer-events: none; }
+      
+div.item {
+position: absolute;
+width: 300px;
+height: 400px;
+background-color: coral;
+--r: calc(var(--position) - var(--offset));
+--abs: max(calc(var(--r) * -1), var(--r));
+transition: all 0.25s linear;
+transform: rotateY(calc(-10deg * var(--r)))
+translateX(calc(-300px * var(--r)));
+z-index: calc((var(--position) - var(--abs)));}
+      
+div.item:nth-of-type(1) {--offset: 1;}
+    
+div.item:nth-of-type(2) {--offset: 2; }
+      
+div.item:nth-of-type(3) {--offset: 3; }
+    
+div.item:nth-of-type(4) {--offset: 4; }
+    
+div.item:nth-of-type(5) {--offset: 5; }
+      
+input:nth-of-type(1) {
+position: relative;
+top: 340px;
+right: 1300px;
+grid-column: 2 / 3;
+grid-row: 2 / 3;}
+     
+input:nth-of-type(1):checked ~ main#carousel {--position: 1; }
+      
+input:nth-of-type(2) {
+position: relative;
+right: 1270px;
+top: 340px;
+grid-column: 3 / 4;
+grid-row: 2 / 3; }
+    
+input:nth-of-type(2):checked ~ main#carousel {--position: 2; }
+
+input:nth-of-type(3) {
+position: relative;
+top: 338px;
+right: 1240px;
+grid-column: 4 /5;
+grid-row: 2 / 3; }
+    
+input:nth-of-type(3):checked ~ main#carousel {--position: 3; }
+      
+input:nth-of-type(4) {
+position: relative;
+top: 338px;
+right: 1200px;
+grid-column: 5 / 6;
+grid-row: 2 / 3; }
+    
+input:nth-of-type(4):checked ~ main#carousel {--position: 4;}
+    
+.footer {
+position: relative;
+top: 730px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 10px;}
+    
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+top: 430px;
+left: 20px; }
+        
+} /*End tag til media query computer*/

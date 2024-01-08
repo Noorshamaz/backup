@@ -1,0 +1,134 @@
+@media screen and (min-width: 430px) and (max-width: 930px) {
+body {
+background-color: #2d2828;
+overflow-x: hidden; 
+margin: 0px;} 
+
+.Header {
+background-color: #222020;
+height: 200px;}
+
+.footer {
+position: relative;
+top: 50px;
+background-color: #222020;
+height: 150px;}
+
+.navbar {display: none;}
+
+.Logo {
+position: relative;
+top: 70px;}
+
+.Burgermenu {
+position: relative;
+left: 400px;
+bottom: 78px; }
+
+.Forårsfest {
+position: relative;
+left: 180px;
+top: 20px;
+color: white;
+font-size: 40px; }
+
+.Forårsfesttekst {
+position: relative;
+color: white;
+left: 8px;
+}
+
+.overskrift {
+position: relative;
+color: white;
+left: 5px;
+}
+
+.PDF {
+position: relative;
+text-decoration: none;
+color: white; 
+left: 2px;
+}
+
+.Privatlivspolitik {
+position: relative;
+top: 10px;
+text-decoration: none;
+color: white;
+}
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; }
+
+
+.Burgermenu {display: none;}
+
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+    
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 80px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                      
+.navbar a:hover {color: #556E53;}
+
+.Forårsfest {
+position: relative;
+left: 800px;
+color: white;
+font-size: 60px; }
+
+.Forårsfesttekst {
+position: relative;
+color: white;
+left: 60px;
+font-size: 25px;}
+
+.PDF {
+position: relative;
+color: white;
+text-decoration: none;
+left: 28px;
+font-size: 30px;
+bottom: 10px;}
+
+.overskrift {
+position: relative;
+color: white;
+font-size: 30px;
+left: 55px;}
+
+.footer {
+position: relative;
+top: 130px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 10px; }
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 30px;
+top: 20px;}
+
+} /*End tag media query til computer*/

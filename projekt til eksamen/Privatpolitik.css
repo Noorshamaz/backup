@@ -1,0 +1,77 @@
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; }
+    
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+        
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 60px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                          
+.navbar a:hover {color: #556E53;}
+
+.overskrift {
+position: relative;
+font-size: 25px;
+color: white;
+left: 2px;
+top: 25px; }
+
+.Privatlivspolitik {
+position: relative;
+color: white;
+left: 20px;
+top: 20px;
+font-size: 25px;
+font-family: inter, sans-serif; }
+
+.PDF {
+position: relative;
+color: white;
+text-decoration: none;
+top: 2px; }
+    
+.Privatpolitikoverskrift {
+position: relative;
+color: white;
+font-size: 50px;
+left: 800px;
+top: 10px; }
+
+.footer {
+position: relative;
+top: 150px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 20px; }
+    
+.Privatlivspolitikfooter {
+position: relative;
+text-decoration: none;
+color: white;
+left: 20px;
+bottom: 150px;}
+    
+.PDF {
+position: relative;
+color: white;
+text-decoration: none;
+left: 2px;}
+
+}    

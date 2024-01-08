@@ -1,0 +1,127 @@
+@media screen and (min-width: 430px) and (max-width: 930px) {  /*sat til Iphone 14 og 15 ifølge figma*/
+body{
+background-color: #2d2828;
+margin: 0px; }
+
+.Header {
+background-color: #222020;
+height: 160px;}
+
+.footer {
+position: relative;
+top: 100px;    
+background-color: #222020;
+height: 160px;}
+
+.Burgermenu {
+position: relative;
+left: 400px;
+bottom: 80px;}
+
+.Logo {
+position: relative;
+top: 40px; }
+
+.navbar {display: none;}
+
+.Grillarrangement {
+position: relative;
+color: white;
+font-size: inter, sans-serif;
+font-size: 30px;
+left: 140px; }
+
+.Grillarrangamenttekst {
+position: relative;
+color: white;
+left: 20px;
+}
+
+.Bowlingmesterskab {
+color: white;
+text-decoration: whites; }
+
+.PDF {
+color: white;
+text-decoration: none; 
+left: 20px;
+}
+    
+.Privatlivspolitik {
+position: relative;
+top: 30px;
+text-decoration: none;
+color: white; 
+left: 20px;
+}
+
+}
+
+
+
+@media screen and (min-width: 430px) and (max-width: 930px) {
+body {
+background-color: #2d2828;
+overflow-x: hidden; } }
+
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; }
+
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+    
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 80px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                      
+.navbar a:hover {color: #556E53;}
+
+.Grillarrangement {
+position: relative;
+bottom: 50px;
+color: white;
+font-size: 60px;
+left: 680px;
+font-family: inter, sans-serif; }
+
+.Grillarrangamenttekst {
+position: relative;
+color: white;
+left: 90px;
+font-size: 20px;}
+
+.PDF {
+color: white;
+text-decoration: none; }
+
+.footer {
+position: relative;
+top: 130px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 10px; }
+    
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 20px;
+top: 20px;}
+
+}

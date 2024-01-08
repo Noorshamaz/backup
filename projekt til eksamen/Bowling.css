@@ -1,0 +1,132 @@
+@media screen and (min-width: 430px) and (max-width: 930px) {
+body {
+background-color: #2d2828;
+overflow-x: hidden; 
+margin: 0px;
+} 
+
+.navbar {display: none;}
+
+.Logo {
+position: relative;
+top: 80px;}
+
+.Burgermenu {
+position: relative;
+bottom: 70px;
+left: 400px; }
+
+.Header {
+background-color: #222020;
+height: 180px;}
+
+.footer {
+position: relative;
+background-color: #222020;
+height: 180px;}
+    
+.Bowling {
+position: relative;
+color: white;
+font-size: 40px;
+left: 150px;}
+
+.Bowlingtekst {
+position: relative;
+color: white;
+left: 10px;
+font-family: inter, sans-serif;
+}
+
+.overskrift {
+position: relative;
+color: white;
+left: 10px;
+}
+
+.PDF {
+position: relative;
+left: 5px;
+color: white;
+text-decoration: none; }
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 10px;
+top: 60px;}
+
+}
+
+
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; }
+
+.Burgermenu {display: none;}
+
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+    
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 80px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                      
+.navbar a:hover {color: #556E53;}
+
+.Bowling {
+position: relative;
+color: white;
+font-size: 80px;
+left: 900px;
+font-family: inter, sans-serif; }
+
+.Bowlingtekst {
+position: relative;
+color: white;
+font-size: 20px; 
+left: 40px;
+}
+
+.footer {
+position: relative;
+top: 130px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 10px; }
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 20px;
+top: 20px;}
+
+.PDF {
+color: white;
+text-decoration: none;
+margin-left: 20px;}
+
+.overskrift {
+position: relative;
+left: 40px;
+color: white;
+}
+    
+}

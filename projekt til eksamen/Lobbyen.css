@@ -1,0 +1,143 @@
+@media screen and (min-width: 430px) and (max-width: 930px) {
+body {
+background-color: #2d2828;
+overflow-x: hidden; } 
+
+.navbar {display: none;}
+
+.Header {
+position: relative;
+background-color: #222020;
+padding: 5px;
+bottom: 10px;
+width: 1000px;
+right: 30px;}
+
+.Lobbybilledetilmobil {
+position: relative;
+right: 20px;
+bottom: 390px; }
+
+.bordfodbold {display: none; }
+                
+.Pool {display: none;}
+                
+.bar {display: none;}
+                
+.fælles {display: none;}
+
+.footer {
+position: relative;
+top: 1090px; 
+right: 190px; }
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 200px;
+bottom: 300px; }
+
+.Lobbyteksttilpc {display: none;}
+.Lobbyen {display: none;}
+    
+.mobillobbytekst {
+position: relative;
+color: white;
+bottom: 400px;
+font-size: 30px; }
+
+.Logo {
+position: relative;
+left: 20px;
+top: 10px; }
+
+.Burgermenu {
+position: relative;
+bottom: 1500px;
+left: 420px; }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; }
+
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+
+.Lobbyen {
+position: relative;
+color: white;
+font-size: 80px;
+bottom: 60px;
+left: 1170px;}
+
+.Lobbyteksttilpc {
+position: relative;
+color: white;
+font-size: 50px;
+width: 1300px; 
+bottom: 100px; }
+
+.bordfodbold {
+position: relative;
+left: 1800px; 
+bottom: 1020px; }
+            
+.Pool {
+position: relative;
+left:  1390px;
+bottom: 1240px;}
+            
+.bar {
+position: relative;
+bottom: 1125px;
+left: 1390px;}
+            
+.fælles {
+position: relative;
+left: 1810px; 
+bottom: 1358px;}
+
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 80px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+          
+.navbar a:hover {color: #556E53;}
+
+.footer {
+position: relative;
+bottom: 900px; }
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+left: 10px;
+bottom: 290px; }
+
+.Lobbybilledetilmobil {display: none;}
+.Burgermenu {display: none;}
+.mobillobbytekst {display: none; }
+
+
+} /*End tag til media query pc*/

@@ -1,0 +1,294 @@
+@media screen and (min-width: 430px) and (max-width: 930px) { 
+@import url(https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap%27);  
+body {
+background-color: #2d2828;
+overflow-x: hidden; }
+
+.navbar {display: none;}
+
+.Arrangamenter {display: none;}
+
+.Privatlivspolitik {
+position: relative;
+color: white;
+text-decoration: none;
+bottom: 300px;
+}
+      
+.Header {
+position: relative;
+background-color: #222020;
+padding: 30px;
+width: 5000px;
+right: 10px;}   
+
+.footer {
+position: relative;
+background-color: #222020;
+height: 300px;    
+width: 5000px;
+right: 10px;}  
+
+.LOBLOGO {
+position: relative;
+bottom: 100px; }
+
+.Forårsfest {
+position: relative;
+left: 380px;
+top: 318px;}
+    
+.Generalforsamling {
+position: relative;
+bottom: 490px;}
+
+.Forårsfest {
+position: relative;
+top: 140px;
+left: 280px;}
+
+.Grillarrangament {
+position: relative;
+top: 300px;}
+
+.Bowling {
+position: relative;
+top: 100px;
+left: 280px;}
+
+.btn1 {
+position: relative;
+background-color: black;
+padding: 12px;
+border-radius:  15px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+bottom: 470px;
+left: 350px;}
+    
+.btn1:hover {
+color: #222;
+background-color: white;}
+    
+.btn2 {
+position: relative;
+background-color: black;
+padding: 12px;
+border-radius:  15px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+bottom: 100px;
+right: 64px;}
+      
+.btn2:hover {
+color: #222;
+background-color: white;}
+      
+.btn1:hover {
+color: #222;
+background-color: white;}
+      
+.btn3 {
+position: relative;
+background-color: black;
+padding: 12px;
+border-radius:  15px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+bottom: 100px;
+left: 130px;}
+        
+.btn3:hover {
+color: #222;
+background-color: white;}
+    
+.btn4 {
+position: relative;
+background-color: black;
+padding: 12px;
+border-radius:  15px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+bottom: 470px;
+right: 290px;}
+          
+.btn4:hover {
+color: #222;
+background-color: white;}
+
+.burgermenu {
+position: relative;
+top: 120px;
+left: 400px;
+}
+
+    }
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) and (min-height: 1024px) {
+body { /*bestemmer dokumentes body*/
+background-color: #2d2828; /*bestemmer dokumentes baggrundsfarve*/
+overflow-x: hidden; /*skjuler alt det som er vandret når man scroller*/
+margin: 0px; }
+    
+.Header {
+background-color: #222020;
+padding: 60px;
+left: 200px;}
+
+.navbar a {
+position: relative;
+bottom: 60px;
+float: right;
+display: block;
+font-size: 40px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+left: 80px;
+text-decoration: none;
+object-fit: cover; 
+font-family: inter, sans-serif; }
+                  
+.navbar a:hover {color: #556E53;}
+
+.Forårsfest { 
+position: relative;
+top:  60px;
+left: 240px;}  
+
+.Grillarrangament {
+position: relative;
+bottom: 160px;
+left: 670px;}
+
+.Bowling {
+position: relative;
+bottom: 365px;
+left: 1120px;}
+
+.Generalforsamling {
+position: relative;
+bottom: 570px;
+left: 1540px; }
+
+.btn1 {
+position: relative;
+left: 270px;
+bottom: 558px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+  
+.btn1:hover {
+color: #222;
+background-color: white;}
+
+.btn2 {
+position: relative;
+left: 480px;
+bottom: 570px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+      
+.btn2:hover {
+color: #222;
+background-color: white;}
+  
+.btn3 {
+position: relative;
+left: 730px;
+bottom: 570px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+          
+.btn3:hover {
+color: #222;
+background-color: white;}
+
+.btn4 {
+position: relative;
+left: 930px;
+bottom: 560px;
+background-color: black;
+padding: 10px;
+border-radius: 12px;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+transition: 0.2s ease-in-out;
+padding: 10px;
+padding-left: 60px;
+padding-right: 60px; }
+              
+.btn4:hover {
+color: #222;
+background-color: white;}
+
+.footer {
+position: relative;
+bottom: 300px;
+width: 2230px;
+background-color: #222020;
+height: 300px;
+right: 10px;}
+
+.Privatlivspolitik {
+position: relative;
+text-decoration: none;
+color: white;
+bottom: 600px;
+left: 20px; }
+
+.Arrangamenter {
+position: relative;
+color: white;
+font-size: 50px;
+font-family: inter, sans-serif;
+top: 20px;
+left: 890px; }
+
+.burgermenu {display: none;}
+
+
+        
+} /*End tag til media query computer*/
+    
+
+            
